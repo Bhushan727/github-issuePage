@@ -1,0 +1,27 @@
+
+.pagination{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.page-item{
+    list-style: none;
+}
+.page-link{
+
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    color: blue;
+}
+.page-link:hover{
+    background-color: royalblue;
+    color: wheat;
+}
+
+.selected{
+    background-color: royalblue;
+    color: wheat;
+}

@@ -1,0 +1,15 @@
+
+.navContainer{
+    height: 9vh;
+    background-color: #0d1117;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-left: 30px;
+    border-bottom: 0.8px solid white;
+    font-size: 29px;
+}
+.fa-github{
+    font-size: 39px;
+}
+

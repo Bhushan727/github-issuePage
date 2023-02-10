@@ -1,0 +1,69 @@
+.issuesContainer{
+
+    position: relative;
+    height: 100%;
+    padding: 70px;
+}
+
+
+.issueSlogan{
+    margin: 40px 0;
+    font-size: 24px;
+    font-weight: 600;
+    width: 60%;
+}
+
+.issueBox{
+    width: 50%;
+}
+
+.issueTitle{
+    margin: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 22px;
+    
+}
+.issueTitle>span{
+    margin-left: 10px;
+    color:royalblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.displayContainer{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 35%;
+    height: 45vh;
+    border: 0.8px solid white;
+    border-radius: 15px;
+}
+
+.displayDiv{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+}
+.displayDiv>p{
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+}
+
+.paginate{
+    position: absolute;
+    bottom: 40px;
+    display: flex;
+    left: 20%;
+}
+
+ 
